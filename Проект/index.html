@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--suppress ALL -->
-<html lang="ru,en" > <!-- атрибут lang это почти единственный аттрибут к тегу <html> и он указывает на язык(и)
+<html lang="ru,en" > <!-- атрибут lang это почти единственный аттрибут к тегу <html> и он указывает на язык(и)Для мультиязычных – lang="zxx"
 котор(ый/ые) используется в документе-->
 <head>
 <meta charset="utf-8">
@@ -10,11 +10,32 @@
     content="Артемий Толстиков,школьник,Умный человек без очков">
 <title> Главная страница </title>
     <link rel="stylesheet" href="/Проект/css/main.css" ><!--Связывает HTML документ с CSS документом-->
-<style>
-  li {
-      color: #ff0000
-  }
-</style><!--тег style позволяет применить определённый css к каком-нибудь в html(лучше так не делать)-->
+
+<!--Адаптив от дипсика базовый -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        li {
+            color: #ff0000
+        }
+
+        /* Адаптивные стили */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        table {
+            width: 100%;
+            max-width: 100%;
+            overflow-x: auto;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 1.5em; }
+            h2 { font-size: 1.2em; }
+            body { font-size: 14px; }
+        }
+    </style><!--тег style позволяет применить определённый css к каком-нибудь в html(лучше так не делать)-->
 </head>
 <body>
 <header>
@@ -57,7 +78,7 @@ H <sub>2</sub>O <!--<sub> делает символ чуть ниже -->
     <li>МАтешу</li>
     <li>Русский</li>
     <li>Литру</li>
-</ol>
+</ol>i
 <br><b><u><big>У него есть</big></u></b>
 <ul> <!-- тег ul позволяет сделать непронумерованный список-->
     <li>Комната</li>
@@ -133,8 +154,8 @@ ggggg
     </details></div>
 <!--Id оотличается от class тем что классы могут быть одинаковыми к разным обьектам а айдишники мдолжны быть оди на странице-->
     <div><i>Lorem</i> ipsum dolor sit amet, <p>consectetur</p> adipisicing.</div>
-    <video src="\Проект\media source\Бобр курва .mp4" controls> ggg</video>
-
+    <video src="\Проект\media source\Бобр курва .mp4" controls> </video>
+    <article>Я насрал в турбину самолёта теперь мне ждёт 200 пожизненных  </article><!--В этом теге записываются все статейки новости для SEO
 </footer>
 </body>
 </html>
