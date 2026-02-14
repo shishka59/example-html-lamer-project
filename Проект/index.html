@@ -41,7 +41,11 @@
 </head>
 <body>
 <header><!--Шапка страницы или секции-->
-<h1 title="Крутой"> Артемий Толстиков  </h1> <!-- атрибут title можно прописывать к любому тексту -->
+    <div style=";" id="no_js_test">
+        <strong>⚠️ Внимание:</strong> Для работы этого сайта требуется JavaScript.
+        Пожалуйста, <a href="https://www.enable-javascript.com/ru/" style="color: white;">(тык)</a> включите JavaScript в вашем браузере.<input type="hidden" id="hide">
+    </div>
+    <h1 title="Крутой"> Артемий Толстиков  </h1> <!-- атрибут title можно прописывать к любому тексту -->
 <h2> <i>Полный дебил</i> </h2> <!--<h.(число чем больше тем меньше)>позволяет делать заголовки разного размера <i> курсив также курсив <em>-->
 ЛОХ
 ЛОХ<br>
@@ -154,7 +158,6 @@ H <sub>2</sub>O <!--<sub> делает символ чуть ниже -->
     <td>One</td>
     </tfoot>
 </table>
-<script src="/Проект/javascript/main.js"></script><br> <!--тег <script> вставляет js файл-->
 <form action="" method="post" id="1st. form"><!-- в атрибуте action указывается страничка куда отправляется содержание формы
 id создаёт уникальный идентификатор (тех.инфа)
 а тег form непосредственно создаёт форму а
@@ -169,6 +172,10 @@ id создаёт уникальный идентификатор (тех.инф
   <br>  <label>Имя</label> <input type="text" lang="ru" name="введённое имя" maxlength="12" value="Ибрахим-Мухамед" disabled title="всё, ты зарегался и имя сменить не сможешь ;)">
     </section>
 </form>
+    <form>
+    <label for="email">Email для рассылки<br></label>
+    <input id="email" type="email">
+    </form>
 <form>
     <select>
         <option disabled selected>Оцените  </option>
@@ -191,6 +198,7 @@ ggggg
   <div id="html5tag(not_in_all_browsers)"> <div id="html5_easy_progress-bar"><progress max="100" value="35">Loading</progress> </div>
     <!-- тег div создает обычный блок, часто используется для группирования элементов -->
     <details><summary>More</summary>
+        <p>Скрытый контент</p>
     </details></div>
 <!--Id оотличается от class тем что классы могут быть одинаковыми к разным обьектам а айдишники мдолжны быть оди на странице-->
     <div><i>Lorem</i> ipsum dolor sit amet, <p>consectetur</p> adipisicing.</div>
@@ -203,6 +211,16 @@ ggggg
         <dl><dt>Турбина</dt><dd>это двигатель</dd></dl><!--Теги <dl>, <dt>, <dd> — списки определений-->
     </article><!--В этом теге записываются все статейки новости постов для SEO-->
     <audio controls><source src="media_source/music.mp3" type="audio/mpeg">Ваш браузер не поддерживает аудио</audio>
+    <fieldset>
+        <legend>Контактная информация</legend>
+        <!-- поля -->
+    </fieldset>
+    <script src="/Проект/javascript/main.js"></script><br> <!--тег <script> вставляет js файл-->
+    <dialog id="modal">
+        что то
+        <p>Содержимое модалки</p>
+        <button onclick="modal.close()">Закрыть</button>
+    </dialog>
 </footer>
 </body>
 </html>

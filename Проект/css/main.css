@@ -64,4 +64,19 @@ progress::-moz-progress-bar {
 progress {
     color: #269a21; /* Меняет цвет полоски в IE10+ */
 }
+#no_js_test{
+background: #ff6b6b;/*Цвет текста*/
+    color: white;
+    padding: 20px;/*Отступы*/
+    text-align: center;/*Выравнивание по центру*/
+    position: fixed;/*Фиксирование*/
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999/*Приоритет наложения, местоположение*/
+}
+#hide{
+    color:white;
+    z-index: 10000
+}
 
