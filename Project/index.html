@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="ru,en" > <!-- атрибут lang это почти единственный аттрибут к тегу <html> и он указывает на язык(и)
 котор(ый/ые) используется в документе-->
 <head>
@@ -41,10 +40,10 @@
 </head>
 <body>
 <header><!--Шапка страницы или секции-->
-    <div  id="no_js_test">
+    <noscript id="no_js_test">
         <strong>⚠️ Внимание:</strong> Для работы этого сайта требуется JavaScript.
         Пожалуйста, <a href="https://www.enable-javascript.com/ru/" id="noJS_ref">(тык)</a> включите JavaScript в вашем браузере.<button type="button" id="noJS_hide"><svg> <use href="Проект/media_source/crest.svg#noJS_hide"></use></svg></button>
-    </div>
+    </noscript>
     <h1 title="Крутой"> Артемий Толстиков  </h1> <!-- атрибут title можно прописывать к любому тексту -->
 <h2> <i>Полный дебил</i> </h2> <!--<h.(число чем больше тем меньше)>позволяет делать заголовки разного размера <i> курсив также курсив <em>-->
 ЛОХ
@@ -190,7 +189,7 @@ id создаёт уникальный идентификатор (тех.инф
 </form>
 <FORM>
 <textarea id="my-textarea" PLACEHOLDER="введите что-то" maxlength="50">
-ggggg
+Ыыы
 </textarea><br><br>
     <button type="submit">готово</button> <!--В атрибуте style можно прописывать любой css код-->
     </FORM>
@@ -215,10 +214,21 @@ ggggg
         Телефон 3456345645
     </fieldset>
     <script src="/Проект/javascript/main.js"></script><br> <!--тег <script> вставляет js файл-->
+<<<<<<< HEAD
     <!--Ошибка "Element <h1> is not allowed here" возникает из-за того,
      что теги <h1> (заголовки) помещены внутрь строчных элементов <b> и <u>.
       В HTML строчные элементы (phrasing content) не могут содержать блочные элементы (flow content),
        к которым относятся заголовки <h1> – <h6>--><!--ТУт будут модалки-->
+=======
+    <dialog id="modal">
+        что то
+        <p>Содержимое модалки</p>
+        <button onclick="modal.close()">Закрыть</button>
+    </dialog>
+    <div id="podval">
+        &copy
+    </div>
+>>>>>>> 6c4112dddfb9950249dfcfead52131a509bc3bb7
 </footer>
 </body>
 </html>

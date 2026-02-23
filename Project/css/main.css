@@ -86,9 +86,18 @@ background: #ff6b6b;/*Цвет текста*/
     width:100px;
     height:auto;
 }
+<<<<<<< HEAD
 .bigger {
     font-size:120em;
 }
 #bigger1{
     font-size:120em;
 }
+=======
+#podval{
+    color: #525252;
+    z-index: 10000000;
+    width: 100%;
+
+}
+>>>>>>> 6c4112dddfb9950249dfcfead52131a509bc3bb7
