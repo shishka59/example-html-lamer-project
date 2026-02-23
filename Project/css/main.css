@@ -86,3 +86,9 @@ background: #ff6b6b;/*Цвет текста*/
     width:100px;
     height:auto;
 }
+#podval{
+    color: #525252;
+    z-index: 10000000;
+    width: 100%;
+
+}
