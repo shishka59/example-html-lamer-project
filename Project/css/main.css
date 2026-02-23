@@ -86,5 +86,9 @@ background: #ff6b6b;/*Цвет текста*/
     width:100px;
     height:auto;
 }
-
-
+.bigger {
+    font-size:120em;
+}
+#bigger1{
+    font-size:120em;
+}
