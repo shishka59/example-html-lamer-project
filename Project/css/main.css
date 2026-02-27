@@ -2,6 +2,7 @@
 .ricroll {
 
     color: rgb(0, 255, 226);
+    font-size:120em;
 }
 
 #html5_easy_progress-bar {
@@ -114,3 +115,5 @@ noscript{
     right: 0;
     z-index: 9999/*Приоритет наложения, местоположение*/
 }
+
+
