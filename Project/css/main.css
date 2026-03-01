@@ -89,10 +89,10 @@ background: #ff6b6b;/*Цвет текста*/
 }
 
 .bigger {
-    font-size:120em;
+    font-size: 1.5em;
 }
 #bigger1{
-    font-size:120em;
+    font-size: 1.5em;
 }
 
 #podval{
@@ -103,6 +103,8 @@ background: #ff6b6b;/*Цвет текста*/
 
 
 }
+
+
 
 noscript{
     background: #ff6b6b;/*Цвет текста*/
@@ -115,5 +117,6 @@ noscript{
     right: 0;
     z-index: 9999/*Приоритет наложения, местоположение*/
 }
+
 
 
