@@ -1,8 +1,7 @@
-.rickroll_gemor,
+﻿.rickroll_gemor,
 .ricroll {
-
     color: rgb(0, 255, 226);
-    font-size:120em;
+    font-size: 1.5em;
 }
 
 #html5_easy_progress-bar {
@@ -17,9 +16,7 @@ div p, div i {
     color: violet;
 }
 
-/*Вот таким образом можно приписывать различные стили к селекторам */
 .ricroll {
-
     text-decoration: none;
     color: aqua;
 }
@@ -30,16 +27,12 @@ div p, div i {
     color: blue;
 }
 
-/* Псевдоклассы можно применять к любым обьектам  */
-
-/* Общие стили */
 progress {
     width: 250px;
     height: 10px;
-    border: none; /* Убираем стандартную рамку */
+    border: none;
 }
 
-/* Стилизация для WebKit-браузеров */
 progress::-webkit-progress-bar {
     background-color: #b6b6b6;
     border-radius: 5px;
@@ -50,7 +43,6 @@ progress::-webkit-progress-value {
     border-radius: 5px;
 }
 
-/* Стилизация для Firefox */
 progress {
     background-color: #b6b6b6;
     border-radius: 5px;
@@ -61,62 +53,47 @@ progress::-moz-progress-bar {
     border-radius: 5px;
 }
 
-/* Стилизация для Internet Explorer */
 progress {
-    color: #269a21; /* Меняет цвет полоски в IE10+ */
+    color: #269a21;
 }
-#no_js_test{
-background: #ff6b6b;/*Цвет текста*/
-    color: white;
-    padding: 20px;/*Отступы*/
-    text-align: center;/*Выравнивание по центру*/
-    position: fixed;/*Фиксирование*/
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999/*Приоритет наложения, местоположение*/
-}
-#noJS_hide{
-    color:white;
+
+.noJS_hide {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-left: 10px;
     z-index: 10000;
-    width:88px;
-    height:auto;
 }
-#noJS_ref{
+
+.noJS_hide svg {
+    width: 24px;
+    height: 24px;
+}
+
+.noJS_ref {
     color: white;
-    width:100px;
-    height:auto;
+    width: 100px;
+    height: auto;
 }
 
-.bigger {
-    font-size: 1.5em;
-}
-#bigger1{
-    font-size: 1.5em;
-}
-
-#podval{
+#podval {
     color: #525252;
     z-index: 10000000;
     width: 100px;
-    height:auto;
-
-
+    height: auto;
 }
 
-
-
-noscript{
-    background: #ff6b6b;/*Цвет текста*/
-    color: white;
-    padding: 20px;/*Отступы*/
-    text-align: center;/*Выравнивание по центру*/
-    position: fixed;/*Фиксирование*/
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999/*Приоритет наложения, местоположение*/
+.noscript {
+    display: none;
 }
 
-
-
+#mycanvas {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #333;
+    display: block;
+    margin: 20px 0;
+    background: #f0f0f0;
+}
