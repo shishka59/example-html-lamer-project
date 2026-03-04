@@ -103,3 +103,8 @@ svg {
     width:24px;
     height:24px;
 }
+
+canvas {
+    margin-right: 20px;
+    /* Отступ справа от каждого canvas */
+}
