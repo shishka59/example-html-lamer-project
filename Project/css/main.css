@@ -1,4 +1,4 @@
-﻿.rickroll_gemor,
+.rickroll_gemor,
 .ricroll {
     color: rgb(0, 255, 226);
     font-size: 1.5em;
@@ -96,4 +96,10 @@ progress {
     display: block;
     margin: 20px 0;
     background: #f0f0f0;
+}
+
+svg {
+    filter: drop-shadow(0 0 1px black) drop-shadow(0 0 1px black);
+    width:24px;
+    height:24px;
 }
