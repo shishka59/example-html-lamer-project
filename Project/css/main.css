@@ -89,7 +89,7 @@ progress {
     display: none;
 }
 
-#mycanvas {
+#myCanvas {
     width: 300px;
     height: 200px;
     border: 2px solid #333;
@@ -100,11 +100,23 @@ progress {
 
 svg {
     filter: drop-shadow(0 0 1px black) drop-shadow(0 0 1px black);
-    width:24px;
-    height:24px;
+    width: 24px;
+    height: 24px;
 }
 
 canvas {
     margin-right: 20px;
-    /* Отступ справа от каждого canvas */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.video-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.video-container iframe {
+    max-width: 100%;
+    height: auto;
 }
