@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap');
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #f0fdf4;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+
+.custom-shadow {
+    box-shadow: 0 20px 50px -12px rgba(22, 101, 52, 0.12);
+}
+
+.accuracy-transition {
+    transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Дополнительные стили для DNS секции */
+.border-blue-100 {
+    border-color: rgb(219 234 254);
+}
+
+.shadow-blue-200 {
+    box-shadow: 0 10px 15px -3px rgb(191 219 254 / 0.1);
+}
+
+.bg-blue-600 {
+    background-color: rgb(37 99 235);
+}
+
+.hover\:bg-blue-700:hover {
+    background-color: rgb(29 78 216);
+}
+
+.text-blue-600 {
+    color: rgb(37 99 235);
+}
+
+.text-blue-800 {
+    color: rgb(30 58 138);
+}
+
+.bg-blue-50 {
+    background-color: rgb(239 246 255);
+}
+
+.bg-blue-100 {
+    background-color: rgb(219 234 254);
+}
+
+/* Дополнительные стили для правильного отображения */
+.border-t-transparent {
+    border-top-color: transparent;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+.border-green-100 {
+    border-color: rgb(220 252 231);
+}
+
+.border-2 {
+    border-width: 2px;
+}
+
+.pointer-events-none {
+    pointer-events: none;
+}
+
+/* Дополнительные стили для Leaflet */
+#map { 
+    height: 500px; 
+    width: 100%; 
+    border-radius: 2.2rem;
+    z-index: 1;
+}
+.leaflet-container {
+    border-radius: 2.2rem;
+}
